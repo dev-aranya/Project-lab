@@ -1,0 +1,120 @@
+/* body{
+    text-align: center;
+}
+
+#box {
+  display: inline-block; 
+  margin: 5px;
+  padding: 20px;
+  background: lightblue;
+  border: 1px solid #333;
+}
+
+
+div{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container{
+     width: 800px;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#box1{
+    background-color: blue;
+}
+
+#box2{
+    background-color: brown;
+    height: 200px;
+    flex-shrink: 2;
+}
+
+#box3{
+    background-color: rgb(47, 255, 0);
+}
+
+#box4{
+    background-color: goldenrod;
+}
+
+#box5{
+    background-color: rgb(255, 0, 25);
+}
+
+#box6{
+    background-color: hotpink;
+} */
+
+/* 
+.navbar{
+    background-color: pink;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+    color: black;
+   
+}
+li{
+    list-style-type: none;
+    /* display: inline; */
+     /* background-color: aqua; */
+/* }
+
+.outer{
+    height: 400px;
+    width: 400px;
+    background-color: fuchsia;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner{
+    height: 100px;
+    width: 100px;
+    background-color: chartreuse;
+    align-self:flex-start;
+} */ 
+
+div{
+    height: 120px;
+    width: 100px;
+    background-color: aqua;
+}
+
+@media(width:800px){
+    div{
+        background-color: red;
+    }
+}
+
+@media(min-width:300px){
+    div{
+        background-color: yellow;
+    }
+}
+
+@media(max-width:600px){
+    div{
+        background-color: blue;
+    }
+}
+
+@media(min-width:300px) and (max-width:400px){
+    div{
+        background-color: pink;
+    }
+}
+@media(min-width:400px) and (max-width:600px){
+    div{
+        background-color: red;
+    }
+}

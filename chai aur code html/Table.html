@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table{
+            width: 100%;
+            border-collapse:collapse;
+            text-align: center;
+            
+        }
+        td,th{
+            border: 1px solid black;
+            padding:10px;
+        }
+        tr :nth-child(even){
+            background-color: #2a9c20;
+        }
+    </style>
+</head>
+<body>
+    <table style="width: 100%;">
+        <colgroup>
+        <col span="2" style="background-color: rgb(21, 242, 242);"/>
+         </colgroup>
+        <tr>
+            <th>Country</th>
+            <th>Country Code</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>Bangaldesh</td>
+            <td>BN</td>
+            <td>Bangla@desh.com</td>
+        </tr>
+        <tr>
+            <td>India</td>
+            <td>IN</td>
+            <td>India@.com</td>
+        </tr>
+        <tr>
+            <td>Brazil</td>
+            <td>Boo</td>
+            <td>Brazail.com</td>
+        </tr>
+    </table>
+</body>
+</html>

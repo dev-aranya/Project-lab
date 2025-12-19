@@ -1,0 +1,60 @@
+
+/* h1{
+    color:blue;
+}
+p{
+    color:rgb(21, 165, 21);
+}
+button{
+    color:red;
+     background-color: aquamarine;
+}
+body{
+    background-color:skyblue;
+}
+#headingone{
+    color:yellow;
+}
+#headingtwo{
+    color:chocolate;
+}
+     */
+ /*
+     #box{
+        background-color: blue;
+        color:white;
+     }
+     .heading{
+        color:red;
+     } */
+/* h1{
+    text-align: center;
+    text-decoration: blue wavy underline;
+}      
+
+h1,h2,h3{
+    color:red;
+}
+button{
+    background-color:blue;
+}
+#one{
+    font-size: 30px;
+}
+#Two{
+    font-size: 25px;
+}
+#Three{
+    font-size:10px;
+} */
+
+*{
+    font-family:"Times New Roman"
+}
+ h1{
+    text-align: center;
+    text-transform: capitalize;
+ }
+ #outer{
+    font-size: 38px;
+ }
