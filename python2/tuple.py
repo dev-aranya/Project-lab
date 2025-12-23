@@ -1,0 +1,8 @@
+x=(3,4,2,245,2,667,7)
+print(x)
+print(type(x))
+a=x.count(2)
+print(a)
+b=x.index(7)
+print(b)
+print(len(x))
